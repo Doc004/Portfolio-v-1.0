@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It</title>
+    <link rel="stylesheet" href="./img/roboto.css">
+</head>
+<body>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .max-wid {
+    margin: 0px auto;
+}
+body{
+    font-family:Roboto;
+}
+.cont-hed {   
+     display: flex;
+    justify-content: space-evenly;
+    margin-top: 37px;
+}
+.cont-hed img{
+    margin-top: 20px;
+    margin-left: 140px;
+}
+.cont-hed ul{
+    display: flex;
+margin-top: 20px;
+}
+.cont-hed li{
+      margin: 4px 30px;
+      list-style: none;
+      text-decoration: none;
+}
+.ul1 a{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-decoration: none;
+color: #363636;
+}
+@media screen and (max-width:458px) {
+    .cont-hed {   
+     display: flex;
+    justify-content: start;
+}
+.cont-hed img{
+ margin: 0px;
+}
+.cont-hed ul{
+display: none;
+}
+.ul1 a{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-decoration: none;
+color: #363636;
+}
+}
+.ul1 a:hover {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;  
+color: #1773BA;
+}
+.cont-hed button{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+border: 1px solid #1773BA;
+text-align: center;
+background-color: transparent;
+width: 250px;
+height: 40px;
+color: #1773BA;
+text-decoration: none;
+margin-top: 10px;
+}
+.bu1 a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+    width: 250px;
+    height: 40px;
+    color: #1773BA;
+    text-decoration: none;
+}
+
+/* Section 1 */
+.cont-cont {
+    align-items: center;
+display: flex;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+.cont-left {
+    
+    padding-left: 200px;
+}
+.p-sec1-2{
+    font-family: 'Roboto';
+    font-style: normal;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px; 
+    color: #717171;
+
+}
+.p-sec1{
+    padding-top: 24px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #363636;
+width: 400px;
+height: 45px;
+}
+.cont-left h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    color: #363636;
+    width: 540px;
+    height: 90px;
+}
+.cont-left button{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+text-align: center;
+background: #1773BA;
+box-shadow: 0px 4px 20px rgba(0, 140, 246, 0);
+border-radius: 4px;
+color: #FFFFFF;
+width: 256px;
+height: 56px;
+border-color: transparent;
+}
+.cont-right {
+        margin-top: 130px;
+        margin-left: 50px;
+}
+/* Section 2 */
+.section2 {
+    background: #1773BA;
+}
+.card-section2-container {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.content-sec2 h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 40px;
+color: #FFFFFF;
+text-align: center;
+padding-top: 150px;  
+}
+.card2-2 {
+    display: flex;
+    justify-content: center;
+  margin-bottom: 50px;
+}
+.card2-4 {
+    display: flex;
+    justify-content: center;
+
+  margin-bottom: 50px;
+}
+
+.card-sec2-1 { 
+    width: 485.51px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+margin-right: 30px;
+transition:all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.card-sec2-2 {
+    width: 485.51px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+    width: 485.51px;
+height: 336px;
+transition:all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.card-sec2-3 {
+    width: 485.51px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+margin-right: 30px;
+transition:all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.card-sec2-4 {
+    width: 485.51px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+transition:all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.card-sec2-3,.card-sec2-4, p{
+margin-bottom: 64px;
+}
+.card-sec2-1 img{
+    margin-top: 62px;
+    margin-left: 200px
+}
+.card-sec2-2 img{
+    margin-top: 62px;
+    margin-left: 200px
+}
+.card-sec2-3 img{
+    margin-top: 62px;
+    margin-left: 200px
+}
+.card-sec2-4 img{
+    margin-top: 62px;
+    margin-left: 200px
+}
+.card-sec2-1:hover{
+transform: scale(1.1);
+}
+.card-sec2-2:hover{
+transform: scale(1.1);
+}
+.card-sec2-3:hover{
+transform: scale(1.1);
+}
+.card-sec2-4:hover {
+    transform: scale(1.1);
+}
+.card-sec2-1  h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    margin-top: 32px;
+    margin-bottom: 11px;
+    color: #363636;
+}
+.card-sec2-2 h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    margin-top: 32px;
+    margin-bottom: 11px;
+    color: #363636;
+}
+.card-sec2-3  h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    margin-top: 32px;
+    margin-bottom: 11px;
+    color: #363636;
+}
+.card-sec2-4 h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    margin-top: 32px;
+    margin-bottom: 11px;
+    color: #363636;
+}
+.card-sec2-1 p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #363636;
+}
+.card-sec2-2 p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #363636;
+}
+.card-sec2-3 p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #363636;
+}
+.card-sec2-4 p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #363636;
+}
+/* Section 3 */
+.contet3 h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 40px;
+padding-top: 150px;
+padding-bottom: 80px;
+text-align: center;
+color: #363636;
+}
+.card3-1 {
+    background: #FFFFFF;
+border: 0.5px solid #EBEDEE;
+width: 320px;
+height: 249px;
+
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+padding: 30px;
+transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+.card3-2 {
+    background: #FFFFFF;
+border: 0.5px solid #EBEDEE;
+width: 320px;
+height: 249px;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+padding: 30px;
+transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+.card3-3 {
+    background: #FFFFFF;
+border: 0.5px solid #EBEDEE;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+padding: 40px;
+width: 320px;
+height: 249px;
+transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card3-contai {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.card3-1 a::after{
+    content: url(./img/Group.svg);
+}
+.card3-2 a::after{
+    content: url(./img/Group.svg);
+}
+.card3-3 a::after{
+    content: url(./img/Group.svg);
+}
+
+.card3-1 a{
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+font-feature-settings: 'cpsp' on;
+color: #1773BA;
+}
+.card3-2 a{
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+font-feature-settings: 'cpsp' on;
+color: #1773BA;
+}
+.card3-3 a{
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+font-feature-settings: 'cpsp' on;
+color: #1773BA;
+}
+.card3-1 h1{
+    margin-top: -100px;
+    margin-left: -50px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+color: #363636;
+font-size: 22px;
+line-height: 130%;
+font-feature-settings: 'cpsp' on;
+}
+.card3-2 h1{
+    margin-top: -100px;
+    margin-left: -100px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+color: #363636;
+font-size: 22px;
+line-height: 130%;
+font-feature-settings: 'cpsp' on;
+}
+.card3-3 h1{
+    margin-top: -100px;
+  margin-left: -200px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+color: #363636;
+font-size: 22px;
+line-height: 130%;
+font-feature-settings: 'cpsp' on;
+}
+
+.card3-1:hover {
+    transform-style: flat;
+    transform: scale(1.1);
+}
+.card3-2:hover {
+    transform-style: flat;
+    transform: scale(1.1);
+}
+.card3-3:hover {
+    transform-style: flat;
+    transform: scale(1.1);
+}
+/* Section 4 */
+.section4 {
+    background: #1773BA;
+}
+.cont4 h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 40px;
+color: #FFFFFF;
+text-align: center;
+padding-bottom: 85px;
+padding-top: 150px;
+}
+.img4 {
+    display: flex;
+align-items: center;
+margin: 0px 0px 0px 50px;
+padding: 0px 0px 200px;
+transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+.img4 img{
+    margin: 0px 35px;
+    transform: scale(1.1);
+}
+/* Section 5 */
+
+.cont5 h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 40px;
+padding-top: 150px;
+padding-bottom: 80px;
+text-align: center;
+color: #363636;
+}
+.cont5 p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 130%;
+padding-bottom: 66px;
+text-align: center;
+font-feature-settings: 'cpsp' on;
+color: #363636;
+}
+.con5-cont {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+border: 0.5px solid #EBEDEE;
+box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+margin-bottom: 150px;
+}
+.cont5-r p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #363636;  
+}
+.cont5-l h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #363636;
+}
+.cont5-l input{
+    background: #F3F3F3;
+border-radius: 4px;
+width: 405px;
+height: 60px;
+border-color: transparent;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+margin: 30px 0px;
+color: #5B5B5B;
+background-color: transparent;
+}
+.btn button{
+    width: 405px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+background: #1773BA;
+border-radius: 4px;
+text-align: center;
+letter-spacing: 0.01em;
+height: 56px;
+color: #FFFFFF;
+border: transparent;
+}
+.cont5-l h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #363636;
+    margin-top: 10px;
+    width: 332px;
+height: 40px;
+margin-bottom: 66px;
+}
+.cont5-l a{
+    text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: blue;
+}
+.cont5-l {
+    margin-top: 65px;
+}
+.cont5-r {
+    margin-top: 225px;
+}
+.fut {
+    background: #1773BA;
+    height: 50px;
+}
+.fut h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+padding-top:20px;
+color: #FFFFFF;
+}
+    </style>
+    <!-- Headre -->
+    <div class="max-wid">
+          <header class="headr">
+        <div class="cont-hed">
+            <div class="connt-hed1">
+            <img src="./img/Логотип интеллектуальны решения.svg" alt="crashed">
+            
+            </div>
+        <ul class="ul1">
+            <li><a href="О нас.html">О нас</a></li>
+            <li><a href="Услуги.html">Услуги</a></li>
+            <li><a href="Кейсы.html">Кейсы</a></li>
+        </ul>
+        <button class="bu1"><a href="#"> Связаться с нами</a></button>
+        </div>
+    </header>
+<!-- SEction 1 -->
+<section class="section1">
+    <div class="cont-cont">
+        <div class="cont-left">
+            <p class="p-sec1-2">Профессиональные IT продукты и услуги</p>
+            <h1>Доверьтесь нам и сократите денежные расходы на бизнес-процессы</h1>
+            <p class="p-sec1">Внедряем IT системы и помогаем получить дополнительный эффект на производстве </p>
+            <button>Обсудить проект</button>
+        </div>
+        <div class="cont-right">
+            <img src="./img/Group 1146.jpg" alt="" width="478px" height="502px">
+        </div>
+    </div>
+</section>
+<!-- Section 2 -->
+<section class="section2">
+    <div class="content-sec2">
+            <h1>Почему именно мы</h1>
+    </div>
+    <div class="card-section2-container">
+        <div class="card2-2">
+              <div class="card-sec2-1">
+            <img src="./img/reload 1.svg" alt="">
+            <h1>Гибкий подход</h1>
+            <p > Подстраиваемся под нужды заказчика, стараясь решить его актуальные задачи, а не формально выполнить работу по ТЗ</p>
+        </div>
+        <div class="card-sec2-2">
+            <img src="./img/users 1.svg" alt="">
+            <h1>Команда профессионалов</h1>
+            <p>В области управления проектами, оказания поддержки и экспертизы  по различным направлениям</p>
+        </div>
+        </div>
+      <div class="card2-4">
+          <div class="card-sec2-3">
+            <img src="./img/trophy 1.svg" alt="">
+            <h1>Большой проектный опыт</h1>
+            <p>Реализовали свыше 50  крупных проектов в различных областях и отраслях</p>
+        </div>
+        <div class="card-sec2-4">
+            <img src="./img/idea (1) 1.svg" alt="">
+            <h1>Новейшие технологии</h1>
+            <p>Используем современные технологии Индустрии 4.0 и новые платформы для сокращения времени на разработку продукта</p>
+        </div>
+      </div>
+      
+    </div>
+
+</section>
+<!-- Section 3 -->
+<section class="section3">
+    <div class="contet3">
+        <h1>Примеры наших работ</h1>
+        <div class="card3-contai">
+            <div class="card3-1">
+            <img src="./img/Frame 896.svg" alt="crashed">
+            <h1>Мобильное приложение</h1>
+            <a href="Кейсы.html">Смотреть кейс</a>
+        </div>
+        <div class="card3-2">
+            <img src="./img/settings 1.svg" alt="crashed">
+            <h1>Цифровой конвейер</h1>
+            <a href="Кейсы.html">Смотреть кейс</a>
+        </div>
+        <div class="card3-3">
+            <img src="./img/Frame 897.svg" alt="crashed">
+            <h1>Экзоскелеты</h1>
+            <a href="Кейсы.html">Смотреть кейс</a>
+        </div>
+        </div>
+        
+    </div>
+</section>
+<!-- Section4 -->
+<section class="section4">
+    <div class="cont4">
+        <h1>Наши клиенты</h1>
+        <div class="img4">
+            <img src="./img/Логотип Норникель.jpg"crashed">
+            <img src="./img/Логотип Евраз.jpg"crashed">
+            <img src="./img/Логотип Miba.jpg "crashed">
+            <img src="./img/Логотип bp.jpg "crashed">
+            <img src="./img/Логотип росвода.jpg"crashed">
+            <img src="./img/Логтип electroneek.jpg"crashed" width="150px" height="94px">
+        </div>
+    </div>
+</section>
+<!-- Section 5 -->
+<section class="section5">
+    <div class="cont5">
+        <h1>Мы готовы обсудить ваш проект</h1>
+        <p>Оставьте заявку на консультацию и получите ответ в ближайшее время</p>
+    </div>
+    <div class="con5-cont">
+        <div class="cont5-r">
+             <p>
+        Телефон: +7 (915) 305-14-31
+    </p>
+    <hr>
+    <p>
+        E-mail: info@smartit.digital
+    </p>
+    <hr>
+    <p>
+        г. Москва, ул. Пресненская набережная, д.8
+    </p>
+    <hr>
+    <p></p>
+        </div>
+        <div class="cont5-l">
+            <h1>Имя *</h1>
+            <input type="text" placeholder="Введите имя">
+            <h1>Номер телефона *</h1>
+            <input type="text" placeholder="Введите номер телефона ">
+            <h1>E-mail</h1>
+            <input type="text" placeholder="Введите e-mail">
+
+              <div class="btn">
+             <button>Отправить</button>
+        </div>  
+        <h3>
+            Нажимая на кнопку, вы автоматически соглашаетес  <a href="Politic confige.html"> с Политикой конфиденциальности</a>
+        </h3>
+        </div>
+    
+       
+    </div>
+   
+</section>
+<footer class="fut">
+<h1>© 2021. Все права защищены</h1>
+</footer>
+    </div>
+    <script src="./app.js">
+    </script>
+</body>
+</html>
