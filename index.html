@@ -1,117 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мое портфолио</title>
-    <style>
-      body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        .project {
-            background-color: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-        }
-        .project:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-        }
-        .project h3 {
-            margin-top: 0;
-        }
-        .project p {
-            margin-bottom: 10px;
-        }
-        .project a {
-            color: #333;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .project a:hover {
-            color: #666; }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        a{
-          text-decoration: none;
-          color: #fff;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Мое портфолио</h1>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,regular,italic,500,700,900,900italic"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+        <section class="section-header">
+            <div class="container">
+			
+                <div class="burger-menu" id="burgerMenu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <nav class="header-he2-he3__container" id="navLinks">
+										<ul class="header-he1">
+											<li>	
+												<h1><a href="#">Ramazon Juraev</a></h1>
+										</li>
+										</ul>
+                    <ul class="header-he2">
+                        <li><a href="#about"><nav>About</nav></a></li>
+                        <li><a href="#skills"><nav>Skills</nav></a></li>
+                        <li><a href="#Project"><nav>Projects</nav></a></li>
+                    </ul>
+                    <ul class="header-he3">
+                        <li><a href="#" id="link"><nav>Linkedin</nav></a></li>
+                        <li><a href="#" id="git"><nav>Github</nav></a></li>
+                        <li><button class="btn" id='btn'>Contact<span>me</span></button></li>
+												
+                    </ul>
+										
+                </nav>
+            </div>
+						<div class="contacts" id="contacts">
+							<p>Email: ramazond14@gmail.com</p>
+							<p>Telegram: dzhuraev_11</p>
+					</div>
+        </section>
     </header>
-    <div class="container">
-        <div class="project">
-            <h3>Проект 1: Лендинг страница 1</h3>
-            <p>Описание проекта: Простая лендинг страница с использованием HTML и CSS.</p>
-            <p>Технологии: HTML, CSS</p>
-            <p>Ссылка на проект: <a href="./1/index.html">Пример</a></p>
-        </div>
-        <div class="project">
-            <h3>Проект 2: Лендинг страница 2</h3>
-            <p>Описание проекта: Простая лендинг страница с использованием HTML и CSS.</p>
-            <p>Технологии: HTML, CSS</p>
-            <p>Ссылка на проект: <a href="./2/index.html">Пример</a></p>
-        </div>
-        <div class="project">
-            <h3>Проект 3: Лендинг страница 3</h3>
-            <p>Описание проекта: Простая лендинг страница с использованием HTML и CSS.</p>
-            <p>Технологии: HTML, CSS</p>
-            <p>Ссылка на проект: <a href="./3/index.html">Пример</a></p>
-        </div>
-        <div class="project">
-            <h3>Проект 4: Лендинг страница 4</h3>
-            <p>Описание проекта: Простая лендинг страница с использованием HTML и CSS.</p>
-            <p>Технологии: HTML, CSS</p>
-            <p>Ссылка на проект: <a href="./4/index.html">Пример</a></p>
-        </div>
-        <div class="project">
-            <h3>Проект 5: Лендинг страница 5</h3>
-            <p>Описание проекта: Простая лендинг страница с использованием HTML и CSS.</p>
-            <p>Технологии: HTML, CSS</p>
-            <p>Ссылка на проект: <a href="./5/index.html">Пример</a></p>
-        </div>
-        <div class="project">
-            <h3>Проект 6: Лендинг страница 6</h3>
-            <p>Описание проекта: Простая лендинг страница с использованием HTML и CSS.</p>
-            <p>Технологии: HTML, CSS</p>
-            <p>Ссылка на проект: <a href="./6/index.html">Пример</a></p>
-        </div>
-         <div class="project">
-            <h3>Проект 7: Список того, что нужно сделать.</h3>
-            <p>Описание проекта: Список того, что нужно сделать, с использованием HTML,CSS,JavaScript и Bootstrap-а</p>
-            <p>Технологии: HTML, CSS BootStrap , JavaScript</p>
-            <p>Ссылка на проект: <a href="./todo app/index.html">Пример</a></p>
-        </div>
-    </div>
-    <footer>
-        <p>&copy; created by <a target="_blank" href="https://github.com/Doc004">Doc004</a> Мое портфолио</p>
-    </footer>
-</body>
+			<main class="main">
+				<section class="section__container">
+					<div class="container">
+						<div class="content-text">
+							<h5>Hello, i am</h5>
+							<h1>
+								< Ramazon
+								<h1>Juraev/></h1>
+							</h1>
+							<h3>Junior Front-end Developer</h3>
+						
+						</div>	
+						<div class="img">
+							<img src="./img/Lukita.svg" alt="Image" />
+						</div>
+					</div>
+						<div class="cont-expi">
+								<h5 class='ff'>2<span> years of experience</span></h5>
+								<h5 class='ff'>7<span> Projects Completed around the world</span></h5>
+							</div>
+				</section>
+				<section class="section2__container">
+					<div class="container-sec2">
+						<div class="cont2-1">
+							<div class="sec2-cont">
+								<h1 id='about'>aboutMe( )</h1>
+								<p>
+									"Meet Ramazon, a skilled front-end developer with a passion
+									for creating intuitive and visually appealing user interfaces.
+									With a keen eye for design and a strong command of HTML, CSS,
+									and JavaScript, Ramazon crafts seamless digital experiences
+									that captivate users. From conceptualization to
+									implementation, Ramazon vity and technical expertise to every
+									project, ensuring both functionality and aesthetic excellence.
+									With a dedication to staying updated on the latest industry
+									trends and technologies, Ramazon is committed to delivering
+									cutting-edge solutions that elevate user engagement and drive
+									business success.
+								</p>
+							</div>
+						</div>
+						<div class="cont2-2">
+							<div class="card-1">
+								<div class="card-1-1">
+									<h1>Junior Front-End Dev</h1>
+									<img src="./img/xml.svg" alt="XML" />
+								</div>
+								<a href="#">Projects</a>
+							</div>
+							<div class="card-2">
+								<div class="card-2-2">
+									<h1>Freelancer</h1>
+									<img src="./img/code-braces.svg" alt="Code" />
+								</div>
+								<a href="#">Hire me!</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="skills__container" id='skills'>
+					<div class="content-skillss">
+						<div class="content-skills-0">
+							<h1>skills now :</h1>
+							<div class="skills-img">
+								<img src="./img/javascript-original.svg" alt="Javascript" />
+								<img src="./img/html5-original.svg" alt="HTML" />
+								<img src="./img/css3-original.svg" alt="CSS" />
+								<img
+									src="./img/linux-original 1.svg"
+									alt="Linux"
+									title="KOMRON THANKS COACH"
+								/>
+							</div>
+						</div>
+						<div class="cont-skils1">
+							<h1>IN<h1 class='h1-future'>FUTURE:</h1></h1>
+							<div class="skills-img0">
+								<img src="./img/typescript-original 2.svg" alt="TypeSCript">
+								<img src="./img/python-original 1.svg" alt="Pyton">
+								<img src="./img/ruby-original-wordmark 1.svg" alt="Ruby">
+								<img src="./img/react-original 1.svg" alt="React">
+								<img src="./img/rails-plain-wordmark 1.svg" alt="Rails">
+								<img src="./img/redux-original 1.svg" alt="Redux">
+								<img src="./img/nodejs-original 1.svg" alt="NodeJs">
+								<img src="./img/nextjs-original 1.svg" alt="NextJs">
+						</div>
+					</div>
+				</section>
+				<section class="section-siwer__container" id='Project' >
+					<div class="content-swiper">
+						<div class="swiper mySwiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"> <a href="#">Project 1 <img src="./img/Снимок экрана (92).png" alt="Project"> </a> </div>
+								<div class="swiper-slide"> <a href="#">Project 2 <img src="./img/Снимок экрана (93).png" alt="Project"> </a> </div>
+								<div class="swiper-slide"> <a href="#">Project 3 <img src="./img/Снимок экрана (94).png" alt="Project"> </a> </div>
+								<div class="swiper-slide"> <a href="#">Project 4 <img src="./img/Снимок экрана (95).png" alt="Project"> </a> </div>
+								<div class="swiper-slide"> <a href="#">Project 5 <img src="./img/Снимок экрана (96).png" alt="Project"> </a> </div>
+								<div class="swiper-slide"> <a href="#">Project 6 <img src="./img/Снимок экрана (97).png" alt="Project"> </a> </div>
+								<div class="swiper-slide"> <a href="#">Project 7 <img src="./img/Снимок экрана (98).png" alt="Project"> </a> </div>
+								<div class="swiper-slide"> <a href="#">Project 8 <img src="./img/stanley-dai-73OZYNjVoNI-unsplash 3.svg" alt="Project"> </a> </div>
+								<div class="swiper-slide"> <a href="#">Project 9 <img src="./img/stanley-dai-73OZYNjVoNI-unsplash 3.svg" alt="Project"> </a> </div>
+							</div>
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+						</div>	
+					</div>
+					</div>
+
+				</section>
+			</main>
+
+			<footer class="footer__container">
+				<section class="footer">
+				
+				</section>
+
+			</footer>
+	
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+			});
+		</script>
+		<script src="./main.js"></script>
+	</body>
 </html>
