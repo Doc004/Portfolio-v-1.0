@@ -80,6 +80,9 @@ body {
 .header-he2 ul {
 	display: flex;
 }
+.header-he1{
+	padding: 0px;
+}
 .header-he2 li {
 	margin: 0px 0px 0px 11px;
 }
